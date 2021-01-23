@@ -33,11 +33,13 @@ namespace WorldCities.Data.Models
         /// <summary>
         /// Широта города.
         /// </summary>
+        [Column(TypeName = "decimal(7,4)")]
         public decimal Lat { get; set; }
 
         /// <summary>
         /// Долгота города.
         /// </summary>
+        [Column(TypeName = "decimal(7,4)")]
         public decimal Lon { get; set; }
 
         /// <summary>
